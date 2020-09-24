@@ -1,0 +1,137 @@
+body{
+  background-color: #bee3db;
+  margin: 0;
+}
+.top-container{
+  padding-left: 550px;
+  margin: 80px;
+  position: relative;
+}
+.mid-container{
+background-color: white;
+text-align: center;
+margin: auto;
+}
+.bottom-container{
+  margin:50px 10px;
+background-color: lightblue;
+text-align: center;
+}
+.cloud1{
+  position: absolute;
+  width: 15%;
+  right: 120px;
+  top: 100px;
+}
+p{
+  width: 50%;
+  margin: 0 auto;
+  color: #03045e;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 150%;
+  line-height: 23px;
+}
+h2{
+  line-height: 10px;
+  font-family: 'Sacramento', cursive;
+  color: #1d3557;
+  font-size: 450%;
+}
+h3{
+  color: #023047;
+  font-family: 'Grandstander', cursive;
+  font-size: 250%;
+}
+h4{
+  color: #14213d;
+  font-size: 170%;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.coder{
+  width: 50%;
+  display: block;
+  right: 70px;
+  top: 10px;
+}
+.cloud2{
+  width: 15%;
+  position: absolute;
+  left: 150px;
+  bottom: 150px;
+}
+/* p{
+  font-family: 'Baloo Tammudu 2', cursive;
+  color: #023047;
+  width: 50%;
+} */
+.man{
+  width: 20%;
+  height: 20%;
+  margin-top: 50px;
+}
+.desktop{
+  width: 25%;
+  height: 10%;
+  float: right;
+  margin-left: 40px;
+}
+.quote{
+  width: 25%;
+  height: 10%;
+  margin-right: 40px;
+  float: left;
+}
+hr{
+  width: 30px;
+  height: 3px;
+  border-style: dotted;
+  border-width: thick;
+  border-bottom: 0;
+}
+.last{
+  margin: 0 auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 15px;
+}
+.skill1-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  line-height: 15px;
+}
+
+.profile{
+  text-align: center;
+}
+.button {
+	box-shadow: 1px 12px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:21px;
+	font-weight:bold;
+	padding:14px 27px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+a{
+  margin-top: 100px;
+  font-size: 130%;
+  text-decoration: none;
+}
